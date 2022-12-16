@@ -21,6 +21,9 @@ public extension String {
      
      - returns: The localized string.
      */
+    
+    
+    
     func localized(using tableName: String?, in bundle: Bundle?) -> String {
         let bundle: Bundle = bundle ?? .main
         if let path = bundle.path(forResource: Localize.currentLanguage(), ofType: "lproj"),

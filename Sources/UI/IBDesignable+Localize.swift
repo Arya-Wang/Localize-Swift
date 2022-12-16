@@ -16,6 +16,7 @@ import UIKit
             // set new value from dictionary
             DispatchQueue.main.async {
                 self.text = newValue?.localized()
+                
             }
         }
         get {
