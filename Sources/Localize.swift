@@ -12,7 +12,7 @@ import Foundation
 let LCLCurrentLanguageKey = "LCLCurrentLanguageKey"
 
 /// Default language. English. If English is unavailable defaults to base localization.
-let LCLDefaultLanguage = "en"
+let LCLDefaultLanguage = "ja"
 
 /// Base bundle as fallback.
 let LCLBaseBundle = "Base"
